@@ -1,0 +1,437 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Growing Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Growing",
+				"Win64",
+				"Debug",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "Growing Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Growing",
+				"Win64",
+				"Debug",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Growing Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "Growing Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Growing",
+				"Win64",
+				"Debug",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "Growing Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Growing",
+				"Win64",
+				"DebugGame",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "Growing Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Growing",
+				"Win64",
+				"DebugGame",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Growing Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "Growing Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Growing",
+				"Win64",
+				"DebugGame",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "Growing Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Growing",
+				"Win64",
+				"Development",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "Growing Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Growing",
+				"Win64",
+				"Development",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Growing Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "Growing Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Growing",
+				"Win64",
+				"Development",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "Growing Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Growing",
+				"Win64",
+				"Test",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "Growing Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Growing",
+				"Win64",
+				"Test",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Growing Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "Growing Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Growing",
+				"Win64",
+				"Test",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "Growing Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Growing",
+				"Win64",
+				"Shipping",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "Growing Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Growing",
+				"Win64",
+				"Shipping",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Growing Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "Growing Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Growing",
+				"Win64",
+				"Shipping",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "GrowingEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GrowingEditor",
+				"Win64",
+				"Debug",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "GrowingEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GrowingEditor",
+				"Win64",
+				"Debug",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GrowingEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "GrowingEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GrowingEditor",
+				"Win64",
+				"Debug",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "GrowingEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GrowingEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "GrowingEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GrowingEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GrowingEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "GrowingEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GrowingEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "GrowingEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GrowingEditor",
+				"Win64",
+				"Development",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "GrowingEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GrowingEditor",
+				"Win64",
+				"Development",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GrowingEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "GrowingEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GrowingEditor",
+				"Win64",
+				"Development",
+				"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Growing.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_5.0"
+			}
+		}
+	]
+}
