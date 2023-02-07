@@ -24,9 +24,10 @@ This is a constantly evolving project. The main purpose of this project is so I 
         
 ### Interactions:
 - [x] Pickup Items
-- [ ] Interact With Objects 
+- [ ] Interact With Objects/Actors
 - [ ] Dialogue System
     - [ ] Multiple Dialogue Options 
+- [ ] Grab Objects
 
 ### Quick Time Events:
 - [x] Long Jumps
@@ -35,7 +36,7 @@ This is a constantly evolving project. The main purpose of this project is so I 
 - [ ] Evade Danger
     
 ### Locomotion
-- [ ] Teleport System
+- [x] Teleport System
 - [ ] Portal System 
 - [ ] Double Jump
 - [x] Multiple Movement Options
