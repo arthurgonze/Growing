@@ -2,10 +2,10 @@
 This is a constantly evolving project. The main purpose of this project is so I can reproduce the main mechanics of first-person games. Project Start: 07/02/23
 
 ### General Systems:
-** [ ] Saving System
-    ** [ ] Checkpoints
-    ** [ ] Save Files
-    ** [ ] Auto-Save
+* * [ ] Saving System
+    * * [ ] Checkpoints
+    * * [ ] Save Files
+    * * [ ] Auto-Save
 - [ ] Options Menu:
     - [ ] Sound Controls
     - [ ] Resolution Controls
