@@ -23,15 +23,15 @@ This is a constantly evolving project. The main purpose of this project is so I 
         - [ ] Reveal Map When Interact with something
         
 ### Interactions:
-- [x] Pickup Items
+- [:white_check_mark:] ~~Pickup Items~~[06/02/23]
 - [ ] Interact With Objects/Actors
 - [ ] Dialogue System
     - [ ] Multiple Dialogue Options 
 - [ ] Grab Objects
 
 ### Quick Time Events:
-- [x] Long Jumps
-- [x] Wall Running
+- [:heavy_check_mark:] ~~Long Jumps~~[07/02/23]
+- [x] ~~Wall Running~~[07/02/23]
 - [ ] Look at Multiple Target in Sequence
 - [ ] Evade Danger
     
