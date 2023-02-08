@@ -23,26 +23,26 @@ This is a constantly evolving project. The main purpose of this project is so I 
         - [ ] Reveal Map When Interact with something
         
 ### Interactions:
-:white_check_mark: ~~Pickup Items~~[06/02/23]
+- :white_check_mark: ~~Pickup Items~~ [07/02/23]
 - [ ] Interact With Objects/Actors
 - [ ] Dialogue System
     - [ ] Multiple Dialogue Options 
 - [ ] Grab Objects
 
 ### Quick Time Events:
-- [:heavy_check_mark:] ~~Long Jumps~~[07/02/23]
-- [x] ~~Wall Running~~[07/02/23]
+- :white_check_mark: ~~Long Jumps~~ [07/02/23]
+- :white_check_mark: ~~Wall Running~~ [07/02/23]
 - [ ] Look at Multiple Target in Sequence
 - [ ] Evade Danger
     
 ### Locomotion
-- [x] Teleport System
+:white_check_mark: ~~Teleport System~~ [07/02/23]
 - [ ] Portal System 
 - [ ] Double Jump
-- [x] Multiple Movement Options
-    - [x] Walk
-    - [x] Run
-    - [x] Crouch
+- :white_check_mark: ~~Multiple Movement Options~~ [07/02/23]
+    - :white_check_mark: ~~Walk~~ [07/02/23]
+    - :white_check_mark: ~~Run~~ [07/02/23]
+    - :white_check_mark: ~~Crouch~~ [07/02/23]
     - [ ] Swim
     - [ ] Mount
         - [ ] Boat
@@ -121,7 +121,7 @@ This is a constantly evolving project. The main purpose of this project is so I 
 - Weapons:
     - [ ] Meelee;
     - [ ] Defense;
-    - [x] Ranged;
+    - :white_check_mark: ~~Ranged~~ [07/02/23];
         - [ ] Homing;
         - [ ] Ammunition;
         - [ ] Portal Gun;
