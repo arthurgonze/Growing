@@ -23,7 +23,7 @@ This is a constantly evolving project. The main purpose of this project is so I 
         - [ ] Reveal Map When Interact with something
         
 ### Interactions:
-- [:white_check_mark:] ~~Pickup Items~~[06/02/23]
+:white_check_mark: ~~Pickup Items~~[06/02/23]
 - [ ] Interact With Objects/Actors
 - [ ] Dialogue System
     - [ ] Multiple Dialogue Options 
