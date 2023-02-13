@@ -1,5 +1,15 @@
 [
 	{
+		"file": "D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Source\\Growing\\Grabber.cpp",
+		"command": "\"D:\\Arquivos de Programas\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\.vscode\\compileCommands_Growing\\Growing.211.rsp\"",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Source\\Growing\\Grabber.h",
+		"command": "\"D:\\Arquivos de Programas\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\.vscode\\compileCommands_Growing\\Growing.211.rsp\"",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
 		"file": "D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Source\\Growing\\Growing.Build.cs",
 		"command": "\"D:\\Arquivos de Programas\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\.vscode\\compileCommands_Growing\\Growing.211.rsp\"",
 		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
@@ -45,6 +55,16 @@
 		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
 	},
 	{
+		"file": "D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Source\\Growing\\Mover.cpp",
+		"command": "\"D:\\Arquivos de Programas\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\.vscode\\compileCommands_Growing\\Growing.211.rsp\"",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Source\\Growing\\Mover.h",
+		"command": "\"D:\\Arquivos de Programas\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\.vscode\\compileCommands_Growing\\Growing.211.rsp\"",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
 		"file": "D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Source\\Growing\\TP_PickUpComponent.cpp",
 		"command": "\"D:\\Arquivos de Programas\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\.vscode\\compileCommands_Growing\\Growing.211.rsp\"",
 		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
@@ -61,6 +81,16 @@
 	},
 	{
 		"file": "D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Source\\Growing\\TP_WeaponComponent.h",
+		"command": "\"D:\\Arquivos de Programas\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\.vscode\\compileCommands_Growing\\Growing.211.rsp\"",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Source\\Growing\\TriggerComponent.cpp",
+		"command": "\"D:\\Arquivos de Programas\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\.vscode\\compileCommands_Growing\\Growing.211.rsp\"",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\Source\\Growing\\TriggerComponent.h",
 		"command": "\"D:\\Arquivos de Programas\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Documentos\\Game Dev Projects\\Unreal\\Growing\\Growing\\.vscode\\compileCommands_Growing\\Growing.211.rsp\"",
 		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
 	}

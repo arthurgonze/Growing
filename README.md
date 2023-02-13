@@ -27,7 +27,7 @@ This is a constantly evolving project. The main purpose of this project is so I 
 * * [ ] Interact With Objects/Actors
 * * [ ] Dialogue System
     * * [ ] Multiple Dialogue Options 
-* * [ ] Grab Objects
+* * :white_check_mark: ~~Grab Objects~~ [13/02/23]
 
 ### Quick Time Events:
 * :white_check_mark: ~~Long Jumps~~ [07/02/23]
@@ -56,8 +56,9 @@ This is a constantly evolving project. The main purpose of this project is so I 
 
 ### Puzzle System
 * * [ ] Sequence of interactions
-* * [ ] Placeable Items
-* * [ ] Breakable "Walls" hiding objects/paths
+* * :white_check_mark: ~~Placeable Items~~ [13/02/23]
+* * :white_check_mark: ~~Item holders~~ [13/02/23]
+* * :white_check_mark: ~~Movable Walls hiding objects/paths~~ [13/02/23]
 * * [ ] Color Matching
 
 ### Platform
@@ -69,13 +70,13 @@ This is a constantly evolving project. The main purpose of this project is so I 
 * * [ ] Trampoline
 
 ### Imersion
-* * [ ] Fluid Simulation Whererver possible
+* * [ ] Fluid Simulation Wherever possible
     * * [ ] fire pits
     * * [ ] smoke grenades
 * * [ ] Destructible Objects
 * * [ ] Weather variation
 * * [ ] Daytime variation
-* * [ ] water shader
+* * [ ] Water shader
     * * [ ] reflections
     * * [ ] refractions
     * * [ ] caustics
