@@ -32,6 +32,9 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 
 	if(physics_handle && physics_handle->GetGrabbedComponent()){
 		FVector target_location = GetComponentLocation() + (GetForwardVector() * hold_distance);
+
+		// DrawDebugSphere(GetWorld(), target_location, 20, 8, FColor::Red, true, -1, 0, 2);
+		
 		physics_handle->SetTargetLocationAndRotation(target_location, GetComponentRotation());
 	}
 }
